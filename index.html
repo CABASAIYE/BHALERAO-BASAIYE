@@ -266,7 +266,7 @@ footer{background:#081a35;padding:40px 5% 24px}
           <span class="stat-label">Full-Time Partners</span>
         </div>
         <div>
-          <span class="stat-num">20+</span>
+          <span class="stat-num">40+</span>
           <span class="stat-label">Staff Members</span>
         </div>
       </div>
@@ -277,7 +277,7 @@ footer{background:#081a35;padding:40px 5% 24px}
         <div class="branch-icon">🏢</div>
         <div class="branch-info">
           <strong>Head Office – Chh. Sambhajinagar</strong>
-          <span>Flat No 08, Kalash Heights, Nutan Colony, Kranti Chowk, 431001</span>
+          <span>Office No 8 & 10, Kalash Heights, Nutan Colony, 431001</span>
         </div>
       </div>
       <div class="branch-item">
@@ -315,7 +315,7 @@ footer{background:#081a35;padding:40px 5% 24px}
     <p class="section-label">Who We Are</p>
     <h2 class="section-title">About Bhalerao & Basaiye</h2>
     <div class="section-line"></div>
-    <p class="section-desc">A distinguished firm established with the vision of delivering unparalleled financial advisory and accounting services. Standing strong for over 16 years in the profession, we are empanelled with Maharashtra Co-operative Sector at A-1 Grade.</p>
+    <p class="section-desc">A distinguished firm established with the vision of delivering unparalleled financial advisory and accounting services. Standing strong for over 16 years in the profession, we are empanelled with Maharashtra Co-operative Sector at A-1 Grade. <strong style="color:var(--orange)">Our firm is a Peer Reviewed Firm</strong>, reflecting our commitment to the highest standards of professional quality, compliance, and ethical practices.</p>
     <div class="about-grid">
       <div>
         <div class="about-highlights">
@@ -328,7 +328,7 @@ footer{background:#081a35;padding:40px 5% 24px}
             <span>Full-Time Partners</span>
           </div>
           <div class="highlight-box">
-            <span class="num">20+</span>
+            <span class="num">40+</span>
             <span>Professional Staff</span>
           </div>
           <div class="highlight-box">
@@ -356,8 +356,12 @@ footer{background:#081a35;padding:40px 5% 24px}
             <p>To provide comprehensive, high-quality accounting, auditing, taxation, and advisory services with a focus on integrity, accuracy, and client satisfaction. We aim to empower our clients by offering insightful financial guidance to optimize their financial performance and strategic objectives.</p>
           </div>
           <div class="vision-card" style="border-left-color:var(--gold)">
-            <h4>⚖️ A-1 Grade Empanelment</h4>
-            <p>We are empanelled with the Maharashtra Co-operative Sector at the highest A-1 Grade. Our firm hosts a DISA-qualified partner and a Forensic Auditor, complemented by associated CA & CS professionals and a wide professional library.</p>
+            <h4>⚖️ A-1 Grade Empanelment & Peer Reviewed Firm</h4>
+            <p>We are proudly empanelled with the Maharashtra Co-operative Sector under the prestigious A-1 Grade category, reflecting our professional excellence and industry standing.</p>
+            <br/>
+            <p>Our firm is a <strong>Peer Reviewed Firm</strong>, demonstrating our commitment to maintaining the highest standards of professional quality, compliance, and ethical practices.</p>
+            <br/>
+            <p>Our team includes a <strong>DISA-qualified Partner</strong> and a <strong>Certified Forensic Auditor</strong>, supported by associated CA, CS & CMA professionals and an extensive professional library, enabling us to deliver specialised, reliable, and value-driven services to our clients.</p>
           </div>
         </div>
       </div>
@@ -465,7 +469,7 @@ footer{background:#081a35;padding:40px 5% 24px}
         <div class="team-avatar"><span class="avatar-initials">SP</span></div>
         <div class="team-info">
           <h3>CA Saili Phuke</h3>
-          <div class="team-role">Junior Partner</div>
+          <div class="team-role">Partner</div>
           <div class="team-exp">⏱ 2 Years Experience</div>
           <div class="team-spec"><strong>Specialization:</strong> Financial Planning, Advisory, Compliance<br/><br/>Guides clients through financial decisions with clarity, precision, and strong analytical skills. Dedicated to value-driven advisory solutions.</div>
         </div>
@@ -533,13 +537,13 @@ footer{background:#081a35;padding:40px 5% 24px}
             <div class="contact-icon">🌐</div>
             <div class="contact-detail">
               <strong>Website</strong>
-              <a href="http://www.bhaleraobasaiye.icai.org.in" target="_blank">www.bhaleraobasaiye.icai.org.in</a>
+              <a href="https://bhaleraobasaiye.co.in" target="_blank">www.bhaleraobasaiye.co.in</a>
             </div>
           </div>
           <div class="branches-section">
             <strong style="color:var(--gold);font-size:0.75rem;letter-spacing:1px;text-transform:uppercase">Our Offices</strong>
             <div class="branch-grid">
-              <div class="branch-mini"><strong>Head Office</strong><span>Kalash Heights, Nutan Colony, Kranti Chowk, Chh. Sambhajinagar 431001</span></div>
+              <div class="branch-mini">          <strong>Head Office</strong><span>Office No 8 & 10, Kalash Heights, Nutan Colony, Chh. Sambhajinagar 431001</span></div>
               <div class="branch-mini"><strong>Pune Branch</strong><span>Wing B Off-43, Jewel of Pimpri, Kamla Cross Rd, Pune 411030</span></div>
               <div class="branch-mini"><strong>Buldhana Branch</strong><span>Choure Market, Sangam Chowk, Near Bus Stand, Buldhana 443001</span></div>
               <div class="branch-mini"><strong>Nanded Branch</strong><span>Jagrat Heights, Mor Chowk, Kabra Nagar, Ring Road, Nanded 431605</span></div>
@@ -622,7 +626,16 @@ footer{background:#081a35;padding:40px 5% 24px}
 
 <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
+// ── EmailJS credentials ── replace with your actual values ──
+const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY';   // from EmailJS → Account → API Keys
+const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID';   // from EmailJS → Email Services
+const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';  // from EmailJS → Email Templates
+// ─────────────────────────────────────────────────────────────
+
+emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+
 function toggleMenu(){
   const m=document.getElementById('mobileMenu');
   m.classList.toggle('open');
@@ -634,15 +647,50 @@ window.addEventListener('scroll',()=>{
   const st=document.getElementById('scrollTop');
   st.classList.toggle('show',window.scrollY>400);
 });
-function submitForm(){
-  const n=document.getElementById('fname').value.trim();
-  const e=document.getElementById('femail').value.trim();
-  const m=document.getElementById('fmsg').value.trim();
-  if(!n||!e||!m){alert('Please fill in the required fields (Name, Email, Message).');return;}
-  document.getElementById('formArea').style.display='none';
-  document.getElementById('formSuccess').style.display='block';
+
+async function submitForm(){
+  const name    = document.getElementById('fname').value.trim();
+  const phone   = document.getElementById('fphone').value.trim();
+  const email   = document.getElementById('femail').value.trim();
+  const service = document.getElementById('fservice').value;
+  const message = document.getElementById('fmsg').value.trim();
+  const btn     = document.querySelector('.submit-btn');
+
+  if(!name||!email||!message){
+    alert('Please fill in the required fields: Name, Email, and Message.');
+    return;
+  }
+  const emailRegex=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if(!emailRegex.test(email)){
+    alert('Please enter a valid email address.');
+    return;
+  }
+
+  btn.textContent='Sending…';
+  btn.disabled=true;
+
+  const templateParams={
+    from_name   : name,
+    from_email  : email,
+    phone       : phone || 'Not provided',
+    service     : service || 'Not specified',
+    message     : message,
+    to_email    : 'bhaleraobasaiye@gmail.com'
+  };
+
+  try{
+    await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams);
+    document.getElementById('formArea').style.display='none';
+    document.getElementById('formSuccess').style.display='block';
+  } catch(err){
+    console.error('EmailJS error:',err);
+    alert('Sorry, something went wrong. Please try again or contact us directly at bhaleraobasaiye@gmail.com');
+    btn.textContent='Send Message →';
+    btn.disabled=false;
+  }
 }
-// smooth highlight nav on scroll
+
+// nav highlight on scroll
 const sections=document.querySelectorAll('section[id]');
 window.addEventListener('scroll',()=>{
   let cur='';
